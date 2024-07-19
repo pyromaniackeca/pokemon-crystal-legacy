@@ -2279,10 +2279,12 @@ ChikoritaEvosAttacks:
 	db 9, LEECH_SEED
 	db 12, REFLECT
 	db 15, POISONPOWDER
+  db 19, DRAGONBREATH
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
+  db 39, OUTRAGE
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
@@ -2299,10 +2301,12 @@ BayleefEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
+  db 19, DRAGONBREATH
 	db 21, MEGA_DRAIN
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
+  db 39, OUTRAGE
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
@@ -2318,9 +2322,11 @@ MeganiumEvosAttacks:
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
+  db 19, DRAGONBREATH
 	db 23, SYNTHESIS
 	db 31, BODY_SLAM
 	db 36, GIGA_DRAIN
+  db 39, OUTRAGE
 	db 41, LIGHT_SCREEN
 	db 45, SOLARBEAM
 	db 46, SUNNY_DAY
@@ -2334,10 +2340,13 @@ CyndaquilEvosAttacks:
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 7, EMBER
+	db 9, MUD_SLAP
+	db 18, DIG
 	db 19, QUICK_ATTACK
 	db 24, FLAME_WHEEL
 	db 35, FLAMETHROWER
 	db 36, SWIFT
+	db 40, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 QuilavaEvosAttacks:
@@ -2347,11 +2356,14 @@ QuilavaEvosAttacks:
 	db 1, LEER
 	db 1, SMOKESCREEN
 	db 6, SMOKESCREEN
+	db 9, MUD_SLAP
 	db 12, EMBER
 	db 16, DEFENSE_CURL
+	db 18, DIG
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
 	db 37, FLAMETHROWER
+	db 40, EARTHQUAKE
 	db 42, SWIFT
 	db 0 ; no more level-up moves
 
@@ -2362,10 +2374,13 @@ TyphlosionEvosAttacks:
 	db 1, SMOKESCREEN
 	db 1, EMBER
 	db 6, SMOKESCREEN
+	db 9, MUD_SLAP
 	db 12, EMBER
+	db 18, DIG
 	db 21, QUICK_ATTACK
 	db 31, FLAME_WHEEL
 	db 38, FLAMETHROWER
+	db 40, EARTHQUAKE
 	db 45, SWIFT
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
@@ -2376,10 +2391,12 @@ TotodileEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 7, WATER_GUN
+  db 10, PURSUIT
 	db 12, RAGE
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
+	db 40, CRUNCH
 	db 43, SCREECH
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2391,10 +2408,12 @@ CroconawEvosAttacks:
 	db 1, LEER
 	db 1, RAGE
 	db 7, RAGE
+  db 10, PURSUIT
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
 	db 37, SLASH
+	db 40, CRUNCH
 	db 45, SCREECH
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2406,13 +2425,14 @@ FeraligatrEvosAttacks:
 	db 1, RAGE
 	db 1, WATER_GUN
 	db 7, RAGE
+  db 10, PURSUIT
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
 	db 38, SLASH
+	db 40, CRUNCH
 	db 47, SCREECH
 	db 50, HYDRO_PUMP
-	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
